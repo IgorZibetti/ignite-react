@@ -52,7 +52,7 @@ export function Video(props: VideoProps) {
                 <p className="text-5xl flex justify-center">Carregando...</p>
             </div>
         )
-    }
+    }   
 
     return (
 
@@ -91,7 +91,7 @@ export function Video(props: VideoProps) {
 
 
 
-                    <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-4">
                         <a href="" className="p-4 text-sm bg-green-500 flex items-start rounded folt-bold  uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
                             <DiscordLogo size={24} />
                             Comuidade do Discord
